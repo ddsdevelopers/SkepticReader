@@ -1,0 +1,197 @@
+body {
+    font-family: poppins, ui-sans;
+    margin: 0;
+    padding: 5px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+.uno {
+    background-color: #FFFFFF;
+    border-color: black;
+    border-width: 2px;
+    width: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+
+.close_button {
+    cursor: pointer;
+}
+
+
+.header-title {
+    background-color: #A9A9A9;
+    border-bottom: 2px solid black;
+    font-family: 'PoppinsBlack', sans-serif;
+    display: flex;
+    column-gap: 16px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.textt {
+    display: inline-block;
+    column-gap: 12px;
+    margin: 0 auto;
+
+}
+
+#back-link {
+    padding: 5px 15px;
+    background-color: #ffc37c;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    margin-right: 0px;
+}
+
+#back-link:hover {
+    background-color: #bb8b57;
+}
+
+#back-link:after {
+    background-color: #916944;
+}
+
+.matilde {
+    background-color: #fffaaa;
+    border-radius: 15px;
+    width: 300px;
+    min-height: 150px;
+    max-height: 350px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow-y: auto;
+}
+
+
+
+
+@keyframes paging {
+    to {
+        transform: rotateY(-180deg);
+    }
+
+}
+
+
+.finale{
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 330px;
+    margin: 0 auto;
+    padding-right: 0px;
+}
+
+.domestic {
+    background-color: #fffaaa;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    
+    display: inline-block;
+}
+
+.domestic p {
+    margin: 0;
+}
+
+.domestic a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#domestic:hover {
+    background-color: #ffc37c;
+}
+
+#domestic:after {
+    background-color: #bb8b57;
+}
+
+#apiset {
+    padding: 5px 15px;
+    background-color: #ffc37c;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#apiset:hover {
+    background-color: #bb8b57;
+}
+
+#apiset:after {
+    background-color: #916944;
+}
+
+#chatlink {
+    color: #ffc37c;
+    text-decoration: none;
+
+}
+
+#chatlink:hover {
+    color: #bb8b57;
+}
+
+#errorUnauthorized {
+    display: none;
+    /* Hidden by default */
+    text-align: center;
+}
+
+#errorUnauthorized img {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+@font-face {
+    font-family: "poppins";
+    src:
+        url('font/poppins-regular-webfont.woff2') format('woff2'),
+        url('font/poppins-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsBlack';
+    src: url('font/poppins-black-webfont.woff2') format('woff2'),
+        url('font/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.image {
+    width: 80px;
+    height: 80px;
+}
+
+.close-icon {
+    width: 20px;
+    height: 20px;
+} 

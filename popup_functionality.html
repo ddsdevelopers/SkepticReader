@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Your Chrome Extension</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylepo.css">
+</head>
+
+
+
+<body style="width: 375px; padding: 0px;">
+
+  <div class="uno">
+    <header class="header-title">
+      <img src="icon/icon-critical-trigger.png" class="image" alt="">
+      <h1 style="font-size: 27px; font-weight: 700;">Skeptic Reader</h1>
+      <div class="close_button" id="closeButton">
+        <img src="icon/close.svg" class="close-icon" alt="">
+      </div>
+    </header>
+
+    <div>
+      <div class="textt">
+        <div class="front">
+        <span class="loader"></span>
+        <p style="display: inline-block; font-size:14px;">Your critical trigger on article news.</p>
+      </div>
+    
+        <div class="custom-select" style="width:300px;">
+          <select id="promptSelection" class="custom-select">
+            <option value="fullAnalysis">Full Analysis (default)</option>
+            <option value="counterarg">Counter arguments</option>
+            <option value="fall">Logical Fallacies & Observable Bias</option>
+            <option value="criticalass">Critical Assesment</option>
+            <option value="summarize">Summarize</option>
+          </select>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="matilde" id="output">
+
+     
+    </div>
+
+
+  <div class=" finale">
+    <div class="domestic" id="domestic">
+      <a style="font-size: 12px; display: inline-block; color: #9e9a61" href="https://domesticstreamers.com/"
+        target="_blank"> Made with love by Domestic Streamers</a>
+    </div>
+    <div class="about">
+      <a id="about-link" href="about.html" style="color: #9e9a61">about</a>
+    </div>
+  </div>
+  </div>
+  <script src="youtube-transcript.js"></script>
+  <script src="popup_functionality.js"></script>
+</body>
+
+</html>
