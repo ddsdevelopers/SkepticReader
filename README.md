@@ -46,9 +46,6 @@ Unravel the yarns, spin the facts, and challenge every word. In a world where he
 
 Once installed, the Skeptic Reader icon will appear in your Chrome toolbar. Click the icon to activate the plugin while reading any news article. The plugin will analyze the content in real-time and provide insights on logical fallacies and biases.
 
-## Contributing
-
-We welcome contributions from the community. Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
 
 ## License
 
